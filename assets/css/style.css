@@ -1,0 +1,157 @@
+body {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+a, a:hover, a:link, a:active, a:visited {
+    color: #ffb727;
+    text-decoration: none;
+}
+  
+.container {
+    text-align: center;
+}
+
+.container img {
+    padding-bottom: 25px;
+}
+
+#navbar {
+    height: 80px;
+}
+
+#navbar a {
+    font-size: 20px;
+}
+
+#hero {
+    background: url("../img/bg-img.jpg") top right;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+}
+
+#hero:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.65);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#hero .hero-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 15px;
+}
+
+#hero h6 {
+    color: white;
+    font-size: 20px;
+}
+
+#hero h1 {
+    margin: 0 0 10px 0;
+    font-size: 90px;
+    color: white;
+}
+  
+#hero h4 {
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.links-container {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.links-container img {
+    float: center;
+    max-height: 100%;
+    max-width: 100%;
+    margin: 0 7px 0 0;
+}
+
+.section-header {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.section-header h3 {
+    font-size: 25px;
+}
+
+.section-header h1 {
+    font-size: 55px;
+}
+
+#about .row {
+    text-align: left;
+    padding-bottom: 25px;
+}
+
+.content-container {
+    display: flex;
+    float: center;
+}
+
+.content-container img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 20px 0 0;
+}
+
+#about .container {
+    padding-bottom: 20px;
+}
+#cv .row {
+    text-align: left;
+}
+
+.skills-container .row p {
+    margin: 0 0 5px 0;
+    font-size: 15px;
+}
+
+.skills-container .row .progress {
+    margin: 0 0 5px 0;
+}
+
+#portfolio .row {
+    padding-bottom: 100px;
+}
+
+#contact h5, #contact h6{
+    padding-top: 20px;
+}
+
+.back-to-top-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
