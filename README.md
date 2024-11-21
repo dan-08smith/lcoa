@@ -1,3 +1,3 @@
 # lcoa
 
-#### Website URL: [Here](https://d-smith.co.uk/lcoa)
+#### Website URL: [Here](https://lcoa.d-smith.co.uk/)
