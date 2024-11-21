@@ -129,21 +129,6 @@ a, a:hover, a:link, a:active, a:visited {
     background-color: #717171;
 }
 
-.links-container {
-    display: flex;
-    white-space: nowrap;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 20px;
-}
-
-.links-container img {
-    float: center;
-    max-height: 100%;
-    max-width: 100%;
-    margin: 0 7px 0 0;
-}
-
 .section-header {
     padding-top: 50px;
     padding-bottom: 30px;
@@ -157,49 +142,12 @@ a, a:hover, a:link, a:active, a:visited {
     font-size: 55px;
 }
 
-#about .row {
-    text-align: left;
-    padding-bottom: 25px;
-}
-
-.content-container {
-    display: flex;
-    float: center;
-}
-
-.content-container img {
-    max-width: 100%;
-    max-height: 100%;
-    margin: 0 20px 0 0;
-}
-
 #about .container {
     padding-bottom: 20px;
 }
-#cv .row {
-    text-align: left;
+
+/*
+.file-container {
+    object-fit:contain;
 }
-
-.skills-container .row p {
-    margin: 0 0 5px 0;
-    font-size: 15px;
-}
-
-.skills-container .row .progress {
-    margin: 0 0 5px 0;
-}
-
-#portfolio .row {
-    padding-bottom: 100px;
-}
-
-#contact h5, #contact h6{
-    padding-top: 20px;
-}
-
-.back-to-top-container {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-
+*/
