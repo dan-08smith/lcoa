@@ -1,3 +1,5 @@
+/* CSS for Website Defaults */
+
 body {
     font-family: "Work Sans", sans-serif;
     font-weight: 400;
@@ -21,6 +23,9 @@ a, a:hover, a:link, a:active, a:visited {
     padding-bottom: 25px;
 }
 
+
+/* CSS for Navbar */
+
 #navbar {
     height: 80px;
 }
@@ -37,6 +42,9 @@ a, a:hover, a:link, a:active, a:visited {
     display: none;
 }
 */
+
+
+/* CSS for Hero Section */
 
 #hero {
     position: relative;
@@ -129,6 +137,9 @@ a, a:hover, a:link, a:active, a:visited {
     background-color: #717171;
 }
 
+
+/* CSS for Section Headers */
+
 .section-header {
     padding-top: 50px;
     padding-bottom: 30px;
@@ -142,12 +153,106 @@ a, a:hover, a:link, a:active, a:visited {
     font-size: 55px;
 }
 
+
+/* CSS for About Section */
+
 #about .container {
     padding-bottom: 20px;
 }
 
-/*
-.file-container {
-    object-fit:contain;
+
+/* CSS for Files Section */
+
+#files .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-*/
+
+#files .file-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+#files .file-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgba(255, 183, 39, 0.1);
+    transition: background-color 0.3s ease;
+    width: 100%;
+    max-width: 350px;
+}
+
+#files .file-item:hover {
+    background-color: rgba(255, 183, 39, 0.2);
+}
+
+#files .file-item img {
+    width: 24px;
+    height: 24px;
+    padding-bottom: 0;
+}
+
+#files .file-item p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    #files .row > div {
+        margin-bottom: 20px;
+    }
+}
+
+
+/* CSS for Contact Section */
+
+#contact .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+#contact .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgba(255, 183, 39, 0.1);
+    transition: background-color 0.3s ease;
+    width: 100%;
+    max-width: 350px;
+}
+
+#contact .contact-item:hover {
+    background-color: rgba(255, 183, 39, 0.2
+    );
+}
+
+#contact .contact-item img {
+    width: 24px;
+    height: 24px;
+    padding-bottom: 0;
+}
+
+#contact .contact-item a {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    #contact .row > div {
+        margin-bottom: 30px;
+    }
+}

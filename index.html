@@ -13,6 +13,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     </head>
     <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+        
         <!-- Navbar Section -->
         <nav id="navbar" class="navbar navbar-expand-sm bg-light fixed-top justify-content-center">
             <ul class="navbar-nav">
@@ -75,26 +76,27 @@
                     <h1>Files</h1>
                 </div>
                 <div class="container">
-                    <p>Files will be here.</p>
                     <div class="file-container">
                         <div class="row">
-                            <div class="col-md-6">
-                                <img src="./assets/icons/file-pdf.svg" alt="PDF File Symbol">
-                                <p><a href="./assets/blank.pdf" target="_blank" rel="noopener noreferrer">membership-form.pdf</a></p>
+                            <div class="col-md-6 file-info">
+                                <div class="file-item">
+                                    <img src="./assets/icons/file-pdf.svg" alt="PDF File Symbol">
+                                    <p><a href="./assets/blank.pdf" target="_blank" rel="noopener noreferrer">membership-form.pdf</a></p>
+                                </div>
+                                <div class="file-item">
+                                    <img src="./assets/icons/file-pdf.svg" alt="PDF File Symbol">
+                                    <p><a href="./assets/blank.pdf" target="_blank" rel="noopener noreferrer">new-member-info.pdf</a></p>
+                                </div>
                             </div>
-                            <div clas="col-md-6">
-                                <img src="./assets/icons/file-pdf.svg" alt="PDF File Symbol">
-                                <p><a href="./assets/blank.pdf" target="_blank" rel="noopener noreferrer">new-member-info.pdf</a></p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <img src="./assets/icons/file-pdf.svg" alt="PDF File Symbol">
-                                <p><a href="./assets/blank.pdf" target="_blank" rel="noopener noreferrer">association-constituition.pdf</a></p>
-                            </div>
-                            <div clas="col-md-6">
-                                <img src="./assets/icons/file-pdf.svg" alt="PDF File Symbol">
-                                <p><a href="./assets/blank.pdf" target="_blank" rel="noopener noreferrer">terms-and-conditions.pdf</a></p>
+                            <div class="col-md-6 file-info">
+                                <div class="file-item">
+                                    <img src="./assets/icons/file-pdf.svg" alt="PDF File Symbol">
+                                    <p><a href="./assets/blank.pdf" target="_blank" rel="noopener noreferrer">association-constituition.pdf</a></p>
+                                </div>
+                                <div class="file-item">
+                                    <img src="./assets/icons/file-pdf.svg" alt="PDF File Symbol">
+                                    <p><a href="./assets/blank.pdf" target="_blank" rel="noopener noreferrer">terms-and-conditions.pdf</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -111,11 +113,15 @@
                 </div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6">
-                            <img src="./assets/icons/link.svg" alt="Link Symbol">
-                            <p><a href="https://www.largiemore.com" target="_blank" rel="noopener noreferrer">Largiemore Holiday Estate</a></p>
-                            <img src="./assets/icons/at.svg" alt="At Symbol">
-                            <a href= "mailto: largiemorecoa@gmail.com"><p>largiemorecoa@gmail.com</p></a>
+                        <div class="col-md-6 contact-info">
+                            <div class="contact-item email-contact">
+                                <img src="./assets/icons/at.svg" alt="At Symbol">
+                                <a href="mailto:largiemorecoa@gmail.com">largiemorecoa@gmail.com</a>
+                            </div>
+                            <div class="contact-item link-contact">
+                                <img src="./assets/icons/link.svg" alt="Link Symbol">
+                                <a href="https://largiemore.com" target="_blank" rel="noopener noreferrer">Largiemore Holiday Estate</a>
+                            </div>
                         </div>
                         <div class="col-md-6">
                             <div class="google-map">
