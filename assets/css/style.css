@@ -137,6 +137,36 @@ a, a:hover, a:link, a:active, a:visited {
     background-color: #717171;
 }
 
+@media (max-width: 768px) {
+    #hero h1 {
+        font-size: clamp(50px, 5vw, 90px);
+    }
+
+    #hero h4 {
+        font-size: 16px;
+    }
+
+    .slide img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    #hero .hero-container {
+        padding: 0 10px;
+    }
+
+    .slideshow-dots {
+        bottom: 10px;
+    }
+
+    .dot {
+        height: 10px;
+        width: 10px;
+    }
+}
+
 
 /* CSS for Section Headers */
 
