@@ -25,14 +25,39 @@ a, a:hover, a:link, a:active, a:visited {
 
 
 /* CSS for Navbar */
-
-#navbar {
+.navbar {
     height: 80px;
 }
 
-#navbar a {
+.navbar .nav-link {
     font-size: 20px;
+    padding: 0 1.5rem !important;
+    text-align: center;
 }
+
+.navbar-toggler {
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+@media (max-width: 991px) {
+    .navbar-collapse {
+        background-color: white;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        padding: 1rem 0;
+    }
+    
+    .navbar .nav-link {
+        padding: 0.5rem 0 !important;
+    }
+}
+
 
 /*
 #btn-back-to-top {
