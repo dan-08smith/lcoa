@@ -1,49 +1,16 @@
 {
   "hosting": [
     {
-      "target": "auth",
-      "public": "auth",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ]
+      "site": "account-lcoa",
+      "public": "public"
     },
     {
-      "target": "account",
-      "public": "account",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ]
+      "site": "auth-lcoa",
+      "public": "public"
     },
     {
-      "target": "dash",
-      "public": "dash",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ]
+      "site": "dash-lcoa",
+      "public": "public"
     }
   ]
 }
