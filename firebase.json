@@ -1,10 +1,6 @@
 {
   "hosting": [
     {
-      "site": "main-lcoa",
-      "public": "public"
-    },
-    {
       "site": "account-lcoa",
       "public": "public"
     },
